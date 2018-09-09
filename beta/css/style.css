@@ -1,0 +1,79 @@
+.navbar-brand>img {
+    height: 35px;
+    padding: 0px;
+    /* firefox bug fix */
+    width: auto;
+}
+
+body {
+    margin-top: 44px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar {
+    padding: 0%;
+    height: 44px;
+    -webkit-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+    -moz-box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+    box-shadow: 0 8px 12px -3px rgb(0, 0, 0);
+    /* the rest of your styling */
+}
+
+li.nav-item.active {
+    background-color: crimson !important;
+}
+
+.nav-item:hover {
+    background-color: black;
+}
+
+#navht,
+#navht2,
+#navht3 {
+    height: 100%
+}
+
+#content {
+    background-color: #b9b9b9;
+}
+
+.card {
+    border-color: black;
+}
+
+.card-body {
+    padding: 0px;
+}
+
+.card-text {
+    padding: 10px 25px 0px 25px;
+}
+
+.card-header {
+    color: white;
+    background-color: #dc143c;
+    border-bottom-color: black;
+}
+
+.scroll {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.space {
+    margin-bottom: 15px;
+}
+
+#vid {
+    display: grid;
+}
+
+#success_message {
+    display: none;
+}
